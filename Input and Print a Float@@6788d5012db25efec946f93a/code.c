@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main()
+float main()
 {
     float num;
     printf("A single floating-point number.\n");
