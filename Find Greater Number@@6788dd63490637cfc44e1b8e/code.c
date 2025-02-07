@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
     int a,b;
-    scanf("%d %d",&a/n,&b);
+    scanf("%d\n %d",&a,&b);
     if(a>b){
         printf("the greater integer.: %d\n",a);
 
