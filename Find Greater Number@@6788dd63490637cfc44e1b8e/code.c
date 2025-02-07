@@ -4,11 +4,11 @@ int main(){
     scanf("%d",&a);
     scanf("%d",&b);
     if(a>b){
-        printf("%d is greater than %d\n",a,b);
+        printf("the greater integer: %d\n",a);
 
     }
     else{
-        printf("%d is greater than %d\n",b,a);
+        printf("the greater integer: %d\n",b);
     }
     return 0;
 }
