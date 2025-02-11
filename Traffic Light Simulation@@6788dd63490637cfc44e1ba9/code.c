@@ -4,16 +4,17 @@ int main(){
     char colour;
     scanf("%c",&colour);
     switch(colour){
-        case'R':
+        case 'R':
         printf("Stop");
         break;
-        case'Y':
+        case 'Y':
         printf("Slow Down");
         break;
-        case'G':
+        case 'G':
         printf("Go")
         break;
         default: 
         printf("Invalid input");
     }
+    return 0;
 }
