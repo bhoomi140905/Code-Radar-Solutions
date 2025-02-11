@@ -10,8 +10,11 @@ int main(){
         printf("Slow Down");
 
     }
-    else{
+    else if(a == G){
         printf("Go");
+    }
+    else{
+        printf("Invalid input");
     }
     return 0;
 }
