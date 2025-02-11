@@ -3,7 +3,7 @@
 int main(){
     char month;
     scamf("%c",&month);
-    switch month{
+    switch (month){
         case 1:
         case 3:
         case 5:
