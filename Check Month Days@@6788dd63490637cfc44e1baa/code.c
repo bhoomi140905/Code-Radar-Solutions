@@ -1,8 +1,8 @@
 // Your code here...
 #include<stdio.h>;
 int main(){
-    char month;
-    scamf("%c",&month);
+    int month;
+    scamf("%d",&month);
     switch (month){
         case 1:
         case 3:
