@@ -1,20 +1,17 @@
 
 #include<stdio.h>
 int main(){
-    char colour;
+    char a;
     scanf("%c",&colour);
-    switch(colour){
-        case 'R':
+    if(a == R){
         printf("Stop");
-        break;
-        case 'Y':
+    }
+    else if(a == Y){
         printf("Slow Down");
-        break;
-        case 'G':
+
+    }
+    else{
         printf("Go")
-        break;
-        default: 
-        printf("Invalid input");
     }
     return 0;
 }
