@@ -2,7 +2,7 @@
 #include<stdio.h>
 int main(){
     char a;
-    scanf("%c",&colour);
+    scanf("%c",&a);
     if(a == 'R'){
         printf("Stop");
     }
