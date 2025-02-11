@@ -10,10 +10,10 @@ int main(){
         printf("Stop");
     }
     else if(Y){
-        printf("Slow Down"):
+        printf("Slow Down");
     }
     else{
-        printf("Invalid input"):
+        printf("Invalid input");
     }
     return 0;
 }
