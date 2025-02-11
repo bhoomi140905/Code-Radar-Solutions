@@ -11,7 +11,7 @@ int main(){
 
     }
     else{
-        printf("Go")
+        printf("Go");
     }
     return 0;
 }
