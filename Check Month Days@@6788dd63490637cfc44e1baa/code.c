@@ -11,10 +11,10 @@ int main(){
         case 8:
         case 10:
         case 12:
-        printf("31\n");
+        printf("31");
         break;
         case 2:
-        printf("28\n");
+        printf("28");
         break;
         case 2:
         case 4:
