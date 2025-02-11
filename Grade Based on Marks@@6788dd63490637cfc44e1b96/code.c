@@ -17,5 +17,6 @@ int main(){
     else(marks>= 50 && marks< 60){
         printf("F");
     }
+    return 0;
     
 }
