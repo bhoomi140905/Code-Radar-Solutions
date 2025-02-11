@@ -4,13 +4,13 @@ int main(){
     char colour;
     scanf("%c",&colour);
     switch(colour){
-        case 1: ''R'
+        case'R':
         printf("Stop");
         break;
-        case 2: 'Y'
+        case'Y':
         printf("Slow Down");
         break;
-        case 3: 'G'
+        case'G':
         printf("Go")
         break;
         default: 
