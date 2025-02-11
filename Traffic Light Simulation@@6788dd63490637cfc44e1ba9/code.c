@@ -1,8 +1,8 @@
 
 #include<stdio.h>
 int main(){
-    char R,G,Y;
-    scanf("%c %c %c",&R,&G,&Y);
+    char colour;
+    scanf("%c",&colour);
     if(G){
         printf("Go");
         break
