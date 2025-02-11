@@ -5,15 +5,15 @@ int main(){
     scanf("%c %c %c",&R,&G,&Y);
     if(G){
         printf("Go");
-        break;
+        break
     }
     else if(R){
         printf("Stop");
-        break;
+        break
     }
     else if(Y){
         printf("Slow Down");
-        break;
+        break
     }
     else{
         printf("Invalid input");
