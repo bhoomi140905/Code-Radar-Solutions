@@ -1,7 +1,7 @@
 
 #include<stdio.h>
 int main(){
-    char colour='';
+    char colour;
     scanf("%c",&colour);
     switch(colour){
         case 1: ''R'
