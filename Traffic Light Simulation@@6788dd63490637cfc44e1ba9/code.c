@@ -1,9 +1,9 @@
 
 #include<stdio.h>
 int main(){
-    char colour;
+    char colour='';
     scanf("%c",&colour);
-    if(G){
+    if('G'){
         printf("Go");
        
     }
