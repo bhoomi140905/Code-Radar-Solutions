@@ -3,20 +3,16 @@
 int main(){
     char colour='';
     scanf("%c",&colour);
-    if('G'){
-        printf("Go");
-       
-    }
-    else if(R){
+    switch(colour){
+        case 1: ''R'
         printf("Stop");
-        
-    }
-    else if(Y){
+        break;
+        case 2: 'Y'
         printf("Slow Down");
-        
-    }
-    else{
+        break;
+        case 3: 'G'
+        printf("Go")
+        break;
+        default: 
         printf("Invalid input");
     }
-    return 0;
-}
