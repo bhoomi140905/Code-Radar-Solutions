@@ -7,13 +7,13 @@
         case '+':
         printf("%d",a+b);
     
-        case '-';
+        case '-':
         printf("%d",a-b);
 
-        case '*';
+        case '*':
         printf("%d",a*b);
 
-        default;
+        default:
         printf("%d",a/b);
     }
     return 0;
