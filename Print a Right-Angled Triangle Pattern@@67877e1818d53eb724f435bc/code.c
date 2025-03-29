@@ -3,11 +3,11 @@ int main()
 {
     int N;
     //printf("Enter the no of rows for the triangle");
-    scanf("%d",&N);
+    scanf("%3d",&N);
     for (int i=1;i <= N; i++)
     {
         for(int j=1;j<=i;j++){
-            printf("*\t");
+            printf("*");
 
         }
         printf("\n");
